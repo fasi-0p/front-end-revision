@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    nothing to see
+</head>
+<body>
+    
+    <!-- press !+tab to have boiler code -->
+    <!-- there are 3 types of tags: semantic, structure, formatting. -->
+    <p> this is a paragraph tag</p>
+    <article> this is an article tag</article>
+    <section> this is a section tag</section>
+    <a href="C:\Users\FASI OWAIZ AHMED\Desktop\bb_dunk_fused_epoch100.mp4"> anchor tag</a>
+    <a href="mailto:fasiowaizahmed1234@gmail.com"> email tag(but doenst work)</a>
+    <a href="tel:7676493497"> phone tag</a>
+    
+
+    <p id="para1"> this is a para with tag</p>
+    <p class="para"> this is a para with class</p>
+    
+    <!-- there are 2 types of elements. inline and block.
+     block is created in next lines and they consume the whole line
+     inline is created in same line and consume just content size -->
+
+    <div style="background-color: pink"> this is a div which is a block element</div>
+    <div style="background-color: pink"> second block element in next line </div>
+    <span style="background-color: yellowgreen"> this is a span which is an inline element</span>
+    <span style="background-color: yellowgreen"> second inline element in same line </span>
+
+    <table border="1">
+        <th>No.</th>
+        <th>Full Name</th>
+        <th>Position</th>
+        <th> Salary</th>
+        <th>Type</th>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <centre><td>Bill Gates</td></centre>
+                <td>Founder of Microsoft</td>
+                <td>1000$</td>
+                <!--ROWSPAN -->
+                <td rowspan="4">Company founder</td> 
+            </tr>
+            <tr>
+                <td>2</td>
+                <centre><td>Steve Jobs</td></centre>
+                <td>Founder of Apple</td>
+                <td> 1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <centre><td>Larry Page</td></centre>
+                <td>Founder of Google</td>
+                <td> 1500</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <centre><td>Mark zukerberg</td></centre>
+                <td>Founder of Facebook</td>
+                <td> 800</td>
+            </tr>
+            <tr>
+                <!-- COLSPAN -->
+                <centre><td colspan="3"><center>Total</center></td></centre>
+                <td> 3000</td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- FORMS EP- 8-->
+     <br><br><br>
+    <form>
+        <fieldset>
+            <legend><b>This is a Form</b></legend>
+        <label for="email" id="email" >Enter email</label>
+        <input type="text" id="email" placeholder="enter your email">
+        </br></br>
+        <label for="password" id="password">Enter password</label>
+        <input type="password" id="password" placeholder="this is placeholder">
+        </br>
+        <label for="male">
+            <input type="radio" id="male" name="gender" value="male"> Male
+        </label>
+        <label for="female">
+            <input type="radio" id="female" name="gender" value="female"> Female
+        </label>
+        <br><br>
+        <label for="datepicker">
+            enter date<input type="date" id="datepicker">
+        </label>
+        <br><br>
+        <label for="dropdownselector1">choose snack</label>
+            <select name="snacks">Snacks
+                <option value="maggi">maggi</option>
+                <option value="coke">Coke</option>
+                <option value="pepsi">Pepsi</option>
+                <option value="fanta">Fanta</option>
+            </select>
+        <br>
+        
+        <textarea id="textarea" cols="20" rows="5" placeholder="Enter any text here"></textarea>
+        <input type="submit" value="submit">
+        <button type="reset"> resets the page</button><br><br>
+
+
+        <label for="choose_file">Upload</label>
+        <input type="file" id="choose_file"></input> <br><br>
+        
+        <input type="image" width="300px" height="300px" src="catcoder.webp" alt="catcoder">
+        <video src="forest beach fused_epoch25.mp4" widht="300px" height="300px" controls></video><br><br>
+        
+        <p>this is iframe referring other html page</p>
+        <iframe src="exp.html" width="300px" height="100px"> this is iframe</iframe>
+        <p>this is iframe embedding</p>
+        <iframe src="https://www.youtube.com/embed/fb4rgYbi84c&t=892s"></iframe>
+        </fieldset>
+    </form>
+
+    <!-- MEDIA EP-11 -->
+
+
+</body>
+</html>
